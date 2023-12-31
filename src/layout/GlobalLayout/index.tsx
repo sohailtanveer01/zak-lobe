@@ -16,7 +16,7 @@ let DebugUI: FC = () => null;
 
 // we need use Constant Folding to remove code below in production
 // refs: https://webpack.js.org/plugins/internal-plugins/#constplugin
-if (process.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV === 'production') {
   // eslint-disable-next-line unicorn/no-lonely-if
   if (getClientConfig().DEBUG_MODE) {
     DebugUI = dynamic(() => import('@/features/DebugUI'), { ssr: false }) as FC;
