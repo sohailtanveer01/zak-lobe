@@ -36,31 +36,32 @@ const Desktop = memo(() => {
   const isInbox = useSessionStore(sessionSelectors.isInboxSession);
 
   return (
-    <DraggablePanel
-      className={styles.drawer}
-      classNames={{
-        content: styles.content,
-      }}
-      expand={showAgentSettings}
-      minWidth={CHAT_SIDEBAR_WIDTH}
-      mode={'fixed'}
-      onExpandChange={toggleConfig}
-      placement={'right'}
-    >
-      <DraggablePanelContainer
-        style={{
-          flex: 'none',
-          height: '100%',
-          maxHeight: '100vh',
-          minWidth: CHAT_SIDEBAR_WIDTH,
-          overflow: 'auto',
-        }}
-      >
-        <SafeSpacing />
-        {!isInbox && <SystemRole />}
-        <TopicListContent />
-      </DraggablePanelContainer>
-    </DraggablePanel>
+    <></>
+    // <DraggablePanel
+    //   className={styles.drawer}
+    //   classNames={{
+    //     content: styles.content,
+    //   }}
+    //   expand={showAgentSettings}
+    //   minWidth={CHAT_SIDEBAR_WIDTH}
+    //   mode={'fixed'}
+    //   onExpandChange={toggleConfig}
+    //   placement={'right'}
+    // >
+    //   <DraggablePanelContainer
+    //     style={{
+    //       flex: 'none',
+    //       height: '100%',
+    //       maxHeight: '100vh',
+    //       minWidth: CHAT_SIDEBAR_WIDTH,
+    //       overflow: 'auto',
+    //     }}
+    //   >
+    //     <SafeSpacing />
+    //     {!isInbox && <SystemRole />}
+    //     <TopicListContent />
+    //   </DraggablePanelContainer>
+    // </DraggablePanel>
   );
 });
 

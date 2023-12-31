@@ -12,7 +12,7 @@ import ChatList from '@/app/chat/features/Conversation/ChatList';
 import { useSessionStore } from '@/store/session';
 import { agentSelectors, sessionSelectors } from '@/store/session/selectors';
 
-import PluginTag from '../../ChatHeader/PluginTag';
+import PluginTag from '../PluginTag';
 import { useStyles } from './style';
 
 export enum ImageType {

@@ -106,9 +106,9 @@ const Tools = memo(() => {
         placement={'top'}
         trigger={['click']}
       >
-        <ActionIcon icon={Blocks} placement={'bottom'} title={t('tools.title')} />
+        <></>
       </Dropdown>
-      <PluginStore open={open} setOpen={setOpen} />
+      {/* <PluginStore open={open} setOpen={setOpen} /> */}
     </>
   );
 });

@@ -9,7 +9,7 @@ import { LobeAgentConfig } from '@/types/agent';
 import { MetaData } from '@/types/meta';
 import { setNamespace } from '@/utils/storeDebug';
 
-import { SessionLoadingState } from '../store/initialState';
+import { SessionLoadingState } from './initialState';
 import { State, initialState } from './initialState';
 import { ConfigDispatch, configReducer } from './reducers/config';
 import { MetaDataDispatch, metaDataReducer } from './reducers/meta';

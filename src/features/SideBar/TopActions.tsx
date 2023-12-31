@@ -33,7 +33,7 @@ const TopActions = memo<TopActionProps>(({ tab, setTab }) => {
         size="large"
         title={t('tab.chat')}
       />
-      <ActionIcon
+      {/* <ActionIcon
         active={tab === SidebarTabKey.Market}
         icon={Bot}
         onClick={() => {
@@ -44,7 +44,7 @@ const TopActions = memo<TopActionProps>(({ tab, setTab }) => {
         placement={'right'}
         size="large"
         title={t('tab.market')}
-      />
+      /> */}
     </>
   );
 });

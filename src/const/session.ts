@@ -3,7 +3,7 @@ import { DEFAULT_AGENT_CONFIG } from '@/const/settings';
 import { LobeAgentSession, LobeSessionType } from '@/types/session';
 import { merge } from '@/utils/merge';
 
-export const INBOX_SESSION_ID = 'inbox';
+export const INBOX_SESSION_ID = 'your_doctor';
 
 export const DEFAULT_AGENT_LOBE_SESSION: LobeAgentSession = {
   config: DEFAULT_AGENT_CONFIG,

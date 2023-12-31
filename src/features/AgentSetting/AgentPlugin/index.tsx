@@ -90,7 +90,7 @@ const AgentPlugin = memo(() => {
   const loadingSkeleton = LoadingList();
   return (
     <>
-      <PluginStore open={showStore} setOpen={setShowStore} />
+      {/* <PluginStore open={showStore} setOpen={setShowStore} /> */}
       <Form
         items={[
           {

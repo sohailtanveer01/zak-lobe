@@ -83,14 +83,14 @@ const Header = memo(() => {
       }
       right={
         <>
-          <ShareButton />
+          {/* <ShareButton />
           <ActionIcon
             icon={showAgentSettings ? PanelRightClose : PanelRightOpen}
             onClick={() => toggleConfig()}
             size={DESKTOP_HEADER_ICON_SIZE}
             title={t('roleAndArchive')}
-          />
-          <SettingButton />
+          /> */}
+          {/* <SettingButton /> */}
         </>
       }
     />

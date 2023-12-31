@@ -125,7 +125,7 @@ const BottomActions = memo<BottomActionProps>(({ tab, setTab }) => {
 
   return (
     <>
-      <ActionIcon
+      {/* <ActionIcon
         icon={DiscordIcon}
         onClick={() => window.open(DISCORD, '__blank')}
         placement={'right'}
@@ -149,7 +149,7 @@ const BottomActions = memo<BottomActionProps>(({ tab, setTab }) => {
         ) : (
           <ActionIcon active={tab === SidebarTabKey.Setting} icon={Settings2} />
         )}
-      </Dropdown>
+      </Dropdown> */}
     </>
   );
 });

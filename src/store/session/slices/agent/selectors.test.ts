@@ -6,7 +6,7 @@ import { SessionStore } from '@/store/session';
 import { MetaData } from '@/types/meta';
 import { LobeAgentSession, LobeSessionType } from '@/types/session';
 
-import { agentSelectors } from '../agent';
+import { agentSelectors } from '.';
 
 vi.mock('i18next', () => ({
   t: vi.fn((key) => key), // Simplified mock return value

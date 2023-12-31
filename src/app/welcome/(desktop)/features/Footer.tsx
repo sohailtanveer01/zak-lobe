@@ -17,7 +17,7 @@ const Footer = memo(() => {
         ©{new Date().getFullYear()} LobeHub
       </span>
       <Flexbox horizontal>
-        <ActionIcon
+        {/* <ActionIcon
           icon={DiscordIcon}
           onClick={() => window.open(DISCORD, '__blank')}
           size={'site'}
@@ -34,7 +34,7 @@ const Footer = memo(() => {
           onClick={() => window.open(GITHUB, '__blank')}
           size={'site'}
           title={'GitHub'}
-        />
+        /> */}
       </Flexbox>
     </Flexbox>
   );

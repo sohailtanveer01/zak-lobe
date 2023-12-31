@@ -29,7 +29,7 @@ const SaveTopic = memo<{ mobile?: boolean }>(({ mobile }) => {
 
   return (
     <Tooltip title={<HotKeys desc={desc} keys={hotkeys} />}>
-      <Render aria-label={desc} icon={iconRender} onClick={openNewTopicOrSaveTopic} />
+      {/* <Render aria-label={desc} icon={iconRender} onClick={openNewTopicOrSaveTopic} /> */}
     </Tooltip>
   );
 });
