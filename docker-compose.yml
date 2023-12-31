@@ -8,6 +8,6 @@ services:
     ports:
       - '3210:3210'
     environment:
-      OPENAI_API_KEY: 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
+      OPENAI_API_KEY: sk-xxxxxxxxxxxxxxxxxxxxxx
       OPENAI_PROXY_URL: https://api-proxy.com/v1
       ACCESS_CODE: lobe66
